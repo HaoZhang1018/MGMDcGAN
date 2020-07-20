@@ -23,11 +23,11 @@ CT-SPECT medical image fusion<br>
 
 ## Fused results:<br>
 MRI-PET:<br>
-<div align=center><img src="https://github.com/LeBoyal/MGMDcGAN/blob/master/images/MRI-PET.pdf" width="900" height="490"/></div>
+<div align=center><img src="https://github.com/LeBoyal/MGMDcGAN/blob/master/images/MRI-PET.pdf" width="300" height="190"/></div>
 MRI-SPECT:<br>
-<div align=center><img src="https://github.com/LeBoyal/MGMDcGAN/blob/master/images/MRI-SPECT.pdf" width="900" height="400"/></div>
+<div align=center><img src="https://github.com/LeBoyal/MGMDcGAN/blob/master/images/MRI-SPECT.pdf" width="300" height="190"/></div>
 CT-SPECT:<br>
-<div align=center><img src="https://github.com/LeBoyal/MGMDcGAN/blob/master/images/CT-SPECT.pdf" width="900" height="400"/></div>
+<div align=center><img src="https://github.com/LeBoyal/MGMDcGAN/blob/master/images/CT-SPECT.pdf" width="300" height="190"/></div>
 
 ## To train:<br>
 CUDA_VISIBLE_DEVICES=0 python main_medical.py(IS_TRAINING=True)<br>
