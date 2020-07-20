@@ -17,13 +17,17 @@ MRI-SPECT medical image fusion<br>
 CT-SPECT medical image fusion<br>
 
 ## Framework:<br>
- Overall procedure:<br>
-<div align=center><img src="  " width="440" height="290"/></div><br>
+ Training procedure:<br>
+<div align=center><img src="https://github.com/LeBoyal/MGMDcGAN/blob/master/images/training.pdf" width="440" height="290"/></div><br>
 
 
 ## Fused results:<br>
-<div align=center><img src="   " width="900" height="490"/></div>
-<div align=center><img src="   " width="900" height="400"/></div>
+MRI-PET:<br>
+<div align=center><img src="https://github.com/LeBoyal/MGMDcGAN/blob/master/images/MRI-PET.pdf" width="900" height="490"/></div>
+MRI-SPECT:<br>
+<div align=center><img src="https://github.com/LeBoyal/MGMDcGAN/blob/master/images/MRI-SPECT.pdf" width="900" height="400"/></div>
+CT-SPECT:<br>
+<div align=center><img src="https://github.com/LeBoyal/MGMDcGAN/blob/master/images/CT-SPECT.pdf" width="900" height="400"/></div>
 
 ## To train:<br>
 CUDA_VISIBLE_DEVICES=0 python main_medical.py(IS_TRAINING=True)<br>
